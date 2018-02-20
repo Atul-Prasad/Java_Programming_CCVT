@@ -20,6 +20,7 @@ public class TestClass {
 	e2.getDep().setDid(8);
 	e2.getDep().setDname("Acc");
 	System.out.println(e1);
+	
 	System.out.println(e2);
 //new Employee().getEid();
 	System.out.println(e1 instanceof Cloneable);

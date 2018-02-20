@@ -46,7 +46,7 @@ public class Employee implements Cloneable{
 		// TODO Auto-generated method stub
 		return "Employee id: "+eid+" Employee Name: "+ename+" Dep Name:"+dep.getDname()+" Dep Id:"+dep.getDid();
 	}
-	
+//temp.dep=this.dep.clone();
 	@Override
 	protected Employee clone() throws CloneNotSupportedException {
 		// TODO Auto-generated method stub
